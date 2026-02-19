@@ -1,0 +1,30 @@
+/* Black Theme */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+a {
+    color: skyblue;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    color: #ffffff;
+    margin-bottom: 1rem;
+}
+
+p {
+    color: #dddddd;
+    margin-bottom: 1rem;
+}
