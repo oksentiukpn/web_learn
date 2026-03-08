@@ -3,11 +3,15 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     background-color: #000000;
     color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 a {
@@ -27,4 +31,25 @@ h6 {
 p {
     color: #dddddd;
     margin-bottom: 1rem;
+}
+
+th,
+td {
+    color: #000000;
+    border: 2px solid hotpink;
+    border-collapse: collapse;
+    padding: 0.5rem;
+}
+
+td:hover {
+    background-color: black;
+    color: #000000;
+}
+
+table {
+    width: 670px;
+    color: #000000;
+    border: 2px solid hotpink;
+    border-radius: 10px;
+    padding: 0.2rem;
 }
